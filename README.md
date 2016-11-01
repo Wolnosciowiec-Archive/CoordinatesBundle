@@ -3,6 +3,7 @@ CoordinatesBundle
 
 [![Build Status](https://travis-ci.org/Wolnosciowiec/CoordinatesBundle.svg?branch=master)](https://travis-ci.org/Wolnosciowiec/CoordinatesBundle)
 [![Code Climate](https://codeclimate.com/github/Wolnosciowiec/CoordinatesBundle/badges/gpa.svg)](https://codeclimate.com/github/Wolnosciowiec/CoordinatesBundle)
+[![Scrutinizer](https://scrutinizer-ci.com/g/Wolnosciowiec/CoordinatesBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Wolnosciowiec/CoordinatesBundle)
 
 Adds a simple support for searching objects from database in selected distance.
 It's a fast method based on a square box, that is not so powerful like circle radius, but its very fast.
