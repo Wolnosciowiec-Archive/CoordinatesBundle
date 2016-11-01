@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/symfony": "^3.1",
+        "phpunit/phpunit": "^5.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Wolnosciowiec\\CoordinatesBundle\\": ""
+        }
+    }
+}
