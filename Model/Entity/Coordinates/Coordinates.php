@@ -16,8 +16,8 @@ class Coordinates
     /** @var float $lon */
     protected $lon;
 
-    /** @var int $distance */
-    protected $distance;
+    /** @var float $distance */
+    protected $distance = 0.0;
 
     /**
      * @param float $lat Latitude
@@ -111,9 +111,9 @@ class Coordinates
     }
 
     /**
-     * @param int|float $distance
+     * @param float $distance
      */
-    public function setMaxAcceptedDistance($distance)
+    public function setMaxAcceptedDistance(float $distance)
     {
         $this->distance = $distance;
     }
