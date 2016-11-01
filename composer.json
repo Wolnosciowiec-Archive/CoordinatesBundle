@@ -1,5 +1,5 @@
 {
-    "name":        "CoordinatesBundle",
+    "name":        "wolnosciowiec/coordinatesbundle",
     "description": "Adds a simple support for searching objects from database in selected distance.",
     "license":     "LGPLv3",
     "type":        "library",
