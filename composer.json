@@ -1,5 +1,11 @@
 {
+    "name":        "CoordinatesBundle",
+    "description": "Adds a simple support for searching objects from database in selected distance.",
+    "license":     "LGPLv3",
+    "type":        "library",
+
     "require": {
+        "php": ">=7.0",
         "symfony/symfony": "^3.1",
         "phpunit/phpunit": "^5.6"
     },
