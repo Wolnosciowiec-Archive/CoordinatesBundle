@@ -25,7 +25,7 @@ class CoordinatesTest extends WebTestCase
         // villages nearby to Wrocław are shown
         $this->assertSame([50.67400897831277, 51.506073021687229], $coords->getBoundingSquare()->getLatitude());
         $this->assertSame([16.838898678816253, 17.198627321183746], $coords->getBoundingSquare()->getLongitude());
-        $this->assertSame(20, $coords->getMaxAcceptedDistance());
+        $this->assertSame(20.0, $coords->getMaxAcceptedDistance());
     }
 
     /**
